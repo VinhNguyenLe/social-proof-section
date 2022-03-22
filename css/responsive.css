@@ -1,0 +1,95 @@
+@media (max-width: 1199px) {
+  body {
+  background-image: url("../images/bg-pattern-top-mobile.svg"),
+    url("../images/bg-pattern-bottom-mobile.svg");
+  }
+
+  .container {
+    text-align: center;
+    padding: 0 24px;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .title h1 {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .title p {
+    padding: 0 12px;
+  }
+
+  .rated-item {
+    padding: 18px 0;
+  }
+
+  .rated-stars {
+    margin-bottom: 10px;
+  }
+
+  .card-item {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+
+  .header {
+    margin-bottom: 50px;
+  }
+
+  .header-item {
+    width: 50%;
+  }
+
+  .title {
+    padding-right: 136px;
+  }
+
+  .rated-item {
+    display: flex;
+  }
+
+  .rated-item {
+    width: 470px;
+  }
+
+  .rated-item:nth-child(2) {
+    margin-left: 10.83333%;
+  }
+
+  .rated-item:nth-child(3) {
+    margin-left: 21.5%;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-item {
+    width: 31.3333%;
+    padding: 40px 32px;
+    height: auto;
+  }
+
+  .card-item:nth-child(2) {
+    transform: translateY(24px);
+  }
+  
+  .card-item:nth-child(3) {
+    transform: translateY(48px);
+  }
+}

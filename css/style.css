@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+:root {
+  --drak-magenta: hsl(300, 43%, 22%);
+  --pink: hsl(333, 80%, 67%);
+  --medium-magenta: hsl(303, 10%, 53%);
+  --light-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+.container {
+  margin: 90px auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+}
+
+.title h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+  color: var(--drak-magenta);
+}
+
+.title p {
+  line-height: 1.4;
+  color: var(--medium-magenta);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.rated {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.rated-item {
+  background-color: var(--light-magenta);
+  padding: 22px 0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.rated-stars {
+  padding: 0 33px;
+}
+
+.rated-text {
+  font-weight: 700;
+  color: var(--drak-magenta);
+}
+
+.card-item {
+  background-color: var(--drak-magenta);
+  border-radius: 8px;
+  padding: 40px 32px;
+  color: var(--white);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.card-header img {
+  border-radius: 50%;
+  width: 44px;
+  margin-right: 24px;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.job {
+  margin-top: 3px;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--medium-magenta);
+}
+
+.card-speech {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+footer {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+footer a {
+  color: var(--drak-magenta);
+  text-decoration: none;
+}
